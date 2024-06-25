@@ -78,7 +78,8 @@ CREATE TABLE pedidos(
   FOREIGN KEY (product_id) REFERENCES produtos(id)
 );
 
-![Modelo de Datos](https://github.com/Cusecheg/Desafio6/blob/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png)
+![Modelo de Datos](https://github.com/Cusecheg/Desafio6/raw/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png)
+
 
 <img src="https://github.com/Cusecheg/Desafio6/blob/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png" alt="image">
 

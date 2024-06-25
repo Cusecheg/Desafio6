@@ -13,7 +13,7 @@ Este é um projeto de exemplo de uma aplicação Node.js utilizando Express e My
 ## 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Cusecheg/Desafio6.git
 cd seu-repositorio
 ````
 ## 2. Instale as deprendências:

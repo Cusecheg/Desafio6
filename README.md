@@ -78,7 +78,9 @@ CREATE TABLE pedidos(
   FOREIGN KEY (product_id) REFERENCES produtos(id)
 );
 
-![image](src/modelOfData.png)
+![Modelo de Datos](src/modelOfData.png)
+
+<img src="https://github.com/Cusecheg/Desafio6/src/modelOfData.png' alt="error>
 
 
 4. Crie um arquivo .env na raiz do projeto e configure suas variáveis de ambiente:

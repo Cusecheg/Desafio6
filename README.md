@@ -78,6 +78,9 @@ CREATE TABLE pedidos(
   FOREIGN KEY (product_id) REFERENCES produtos(id)
 );
 
+![image](https://github.com/Cusecheg/Desafio6/assets/154948986/7d8a4e6c-7c4c-47f4-9c37-9bed77545c86)
+
+
 4. Crie um arquivo .env na raiz do projeto e configure suas variáveis de ambiente:
 
 DATABASE_HOST=localhost
@@ -158,4 +161,5 @@ Corpo da requisição:
 Vendas
 
 * GET http://localhost:3000/api/order       (Obter um resumo de vendas)
+
 

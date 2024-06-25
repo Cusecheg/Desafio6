@@ -80,6 +80,8 @@ CREATE TABLE pedidos(
 
 ![Modelo de Datos](https://github.com/Cusecheg/Desafio6/blob/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png)
 
+<img src="https://github.com/Cusecheg/Desafio6/blob/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png" alt="image">
+
 
 
 4. Crie um arquivo .env na raiz do projeto e configure suas variáveis de ambiente:

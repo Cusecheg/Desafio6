@@ -12,7 +12,7 @@ Este é um projeto de exemplo de uma aplicação Node.js utilizando Express e My
 
 1. Clone o repositório:
 
-```bash
+bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 

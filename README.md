@@ -10,17 +10,17 @@ Este é um projeto de exemplo de uma aplicação Node.js utilizando Express e My
 
 ## Instalação
 
-1. Clone o repositório:
+## 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
-
-2. Instale as deprendências:
+````
+## 2. Instale as deprendências:
 npm install
 
-3. Crie um banco de dados MySQL e as tabelas necessárias. Execute os seguintes comandos SQL:
-
+## 3. Crie um banco de dados MySQL e as tabelas necessárias. Execute os seguintes comandos SQL:
+``` bash
 CREATE DATABASE nome_do_banco_de_dados;
 
 USE nome_do_banco_de_dados;
@@ -81,18 +81,20 @@ CREATE TABLE pedidos(
 ![Modelo de Datos](https://github.com/Cusecheg/Desafio6/raw/af595e7aa8411f5f542c37afbd87275b99c8bca8/src/modelOfData.png)
 
 
-4. Crie um arquivo .env na raiz do projeto e configure suas variáveis de ambiente:
-
+## 4. Crie um arquivo .env na raiz do projeto e configure suas variáveis de ambiente:
+``` bash
 DATABASE_HOST=localhost
 DATABASE_PASSWORD="sua_senha"
 DATABASE_USER="seu_usuario"
 DATABASE_NAME="nome_do_banco_de_dados"
-
-5. Inicie a aplicação:
-
+```
+## 5. Inicie a aplicação:
+``` bash
 npm start
+```
 
-Estrutura do Projeto:
+## Estrutura do Projeto:
+```bash
 1. app.js: Configuração de middlewares.
 2. index.js: Arquivo principal da aplicação (Inicialização do servidor).
 3. database/db.js: Conexão com o banco de dados.
@@ -101,11 +103,10 @@ Estrutura do Projeto:
 6. controllers/: Contém os controladores que lidam com a lógica de negócios.
 7. services/: Contém o tratamento de dados obtidos desde a base de datos!
 8. models/: Contém os modelos que interagem com o banco de dados.
-
-Endpoints da Api
-
+```
+## Endpoints da Api
+``` bash
 Produtos
-
 *   GET http://localhost:3000/api/product/all   (Lista todos os produtos)
 *   GET http://localhost:3000/api/product/600   (Lista  um produto pelo id)
 *   POST http://localhost:3000/api/product      (Cria um novo produto)
@@ -163,3 +164,4 @@ Vendas
 * GET http://localhost:3000/api/order       (Obter um resumo de vendas)
 
 
+```
